@@ -18,20 +18,3 @@ class App extends React.Component {
     );
   }
 }
-// export default 
-// class App extends Component<Props> {  
-// 	render() {    
-// 		return (      
-// 			<MapView        
-// 			style={{flex: 1}}        
-// 			region={{          
-// 				latitude: 42.347870,          
-// 				longitude: -71.117089,          
-// 				latitudeDelta: 0.0922,          
-// 				longitudeDelta: 0.0421        
-// 			}}        
-// 			showsUserLocation={true}      
-// 		    />    
-// 	    );  
-// 	}
-// }

@@ -6,5 +6,12 @@ Build a react native application that displays COVID-19 cases for each country a
 Set up the React Native environment on your machine
 ### Step 2
 Go through React Native Tutorials and build a basic Hello-World Application
+run the following command to start the first helloworld react native project
+```
+npm install -g expo-cli
+expo init FirstApp
+cd FirstApp
+expo start
+```
 ### Step 3
 Develop a use case to display a map

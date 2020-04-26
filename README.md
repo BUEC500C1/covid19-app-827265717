@@ -20,3 +20,9 @@ npm install -g react-native-cli
 react-native run-ios
 npm install --save react-native-map
 ```
+### Step 4: On separate branch, exercise the CODVID-19 API (Documentation using postman) and display the data in your application as text.
+This app can uses the CODVID-19 API to get the  number of confirmed cases by each state. Otherwise, It can also return the total number of confirmed cases per day in the whole country. The command is shown as below:
+```
+curl --location --request GET https://api.covid19api.com/live/country/united-states/status/confirmed/date/2020-04-10T20:00:00Z
+curl --location --request GET https://api.covid19api.com/dayone/country/united-states/status/confirmed
+```

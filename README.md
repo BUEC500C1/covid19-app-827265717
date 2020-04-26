@@ -26,3 +26,5 @@ This app can uses the CODVID-19 API to get the  number of confirmed cases by eac
 curl --location --request GET https://api.covid19api.com/live/country/united-states/status/confirmed/date/2020-04-10T20:00:00Z
 curl --location --request GET https://api.covid19api.com/dayone/country/united-states/status/confirmed
 ```
+### Step 5: Overlay the data on the maps
+By click the red button on the map, the result of total number of confirmed cases, death cases and recovered cases in shown below
